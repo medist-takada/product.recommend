@@ -69,6 +69,7 @@ def display_product(result):
             価格：{product['price']}
     """)
 
+    # 在庫状況の表示
     if product['stock_status'] == "残りわずか":
         st.warning(ct.STOCK_LOW_MESSAGE, icon=ct.STOCK_LOW_ICON)
     elif product['stock_status'] == "なし":
