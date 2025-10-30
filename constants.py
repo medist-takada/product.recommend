@@ -46,3 +46,10 @@ INITIALIZE_ERROR_MESSAGE = "初期化処理に失敗しました。"
 CONVERSATION_LOG_ERROR_MESSAGE = "過去の会話履歴の表示に失敗しました。"
 RECOMMEND_ERROR_MESSAGE = "商品レコメンドに失敗しました。"
 LLM_RESPONSE_DISP_ERROR_MESSAGE = "商品情報の表示に失敗しました。"
+
+#在庫数が「のこりわずか」の場合のメッセージ
+STOCK_LOW_MESSAGE = "ご好評につき、在庫が残りわずかです。購入をご希望の場合は、お早めのご注文をおすすめいたします。"
+STOCK_LOW_ICON = ":material/warning:"
+#　在庫数が「在庫なし」の場合のメッセージ
+STOCK_OUT_MESSAGE = "申し訳ございませんが、本商品は在庫切れとなっています。入荷までもうしばらくお待ちください。"
+STOCK_OUT_ICON = ":material/error:"
